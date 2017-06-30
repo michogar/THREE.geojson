@@ -1,4 +1,4 @@
-var THREETUT = THREETUT || {};
+const THREETUT = {}
 THREETUT.Shaders = {
 	Pink: {
 		'vertex': ["void main() {",
@@ -71,3 +71,5 @@ THREETUT.Shaders = {
 		"}"].join("\n")
 	}
 };
+
+export default THREETUT

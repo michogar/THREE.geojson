@@ -1,0 +1,39 @@
+{
+  "name": "three.geojson",
+  "version": "1.0.0",
+  "description": "Convert a geoJSON to a 3D mesh structure",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michogar/THREE.geojson.git"
+  },
+  "keywords": [
+    "three",
+    "geojson",
+    "3d"
+  ],
+  "author": "Micho Garcia <micho.garcia@geomati.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michogar/THREE.geojson/issues"
+  },
+  "homepage": "https://github.com/michogar/THREE.geojson#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2017": "^6.24.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "three": "^0.86.0"
+  }
+}
